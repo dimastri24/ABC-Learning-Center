@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/courses.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <title>HTML | ABC Learning Center</title>
+    <style>
+        .ui-tabs .ui-tabs-panel {
+            margin-bottom: 20px;
+            border: 3px solid #fc5185;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px grey;
+        }
+
+        .ui-widget-header {
+            background: none;
+            border: none;
+        }
+
+        #tabs {
+            border: none;
+        }
+
+        .ui-state-default,
+        .ui-widget-content .ui-state-default,
+        .ui-widget-header .ui-state-default,
+        .ui-button,
+        html .ui-button.ui-state-disabled:hover,
+        html .ui-button.ui-state-disabled:active {
+            background: #3f72af;
+            border: none;
+        }
+
+        .ui-state-active,
+        .ui-widget-content .ui-state-active,
+        .ui-widget-header .ui-state-active,
+        a.ui-button:active,
+        .ui-button:active,
+        .ui-button.ui-state-active:hover {
+            background: #fc5185;
+        }
+
+        .ui-state-default a,
+        .ui-state-default a:link,
+        .ui-state-default a:visited,
+        a.ui-button,
+        a:link.ui-button,
+        a:visited.ui-button,
+        .ui-button {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="wrapper">
+                <div class="header-logo"><a href="#">ABC Learning Center</a></div>
+                <div class="menu">
+                    <ul class="main">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a>
+                            <ul class="sub">
+                                <li><a href="java.html">Java</a></li>
+                                <li><a href="html.html">Html</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="leadform.html" class="tbl-biru">REGISTER</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="wrapper">
+            <div class="breadcrumbs">
+                <ul class="breadcrumbs-nav">
+                    <li class="breadcrumbs-list">
+                        <a href="index.html" class="breadcrumbs-link">Home</a>
+                    </li>
+                    <li class="breadcrumbs-list">
+                        <a href="courses.html" class="breadcrumbs-link">Courses</a>
+                    </li>
+                    <li class="breadcrumbs-list">
+                        <a href="html.html" class="breadcrumbs-link-active">Html</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="course-title">
+                <h1>HTML Web Development</h1>
+            </div>
+
+            <section class="course-top">
+                <div class="btn-blok">
+                    <a href="leadform.html" class="register-btn">REGISTER</a> <br>
+                    <a href="schhtml.html" class="schedule-btn">Check Sechedule</a>
+                </div>
+                <img src="images/html5-tools-for-developers.jpg" alt="Java course">
+            </section>
+
+            <div class="container">
+                <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">About</a></li>
+                        <li><a href="#tabs-2">What You'll Learn</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <h3>About The Course</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magni
+                            saepe reprehenderit laudantium sed consequuntur itaque quod natus sequi expedita!</p>
+                    </div>
+                    <div id="tabs-2">
+                        <h3>What You Will Learn</h3>
+                        <ul>
+                            <li>HTML Beginner</li>
+                            <li>HTML Intermediete</li>
+                            <li>HTML Advance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div class="wrapper">
+                <div class="footer">
+                    <div class="footer-section">
+                        <div class="foot-nav">
+                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="sitemap.html">Site Map</a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Get Connect With</h4>
+                        <div class="sosmed">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <div class="foot-logo">
+                            <a href="#">ABC Learning Center</a>
+                        </div>
+                        <div class="foot-mail">
+                            <p><a href="mailto:#">support@abclearning.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script/dropnav.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+        });
+    </script>
+
+</body>
+
+</html>

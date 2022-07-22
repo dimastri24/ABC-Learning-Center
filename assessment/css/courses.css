@@ -1,0 +1,227 @@
+/*      COURSES PAGE
+==================================================*/
+
+#courses {
+    margin: 40px 0;
+    padding: 0 100px;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+#courses h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#courses p {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.courses-card {
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+#courses-mid {
+    margin: 0 100px;
+}
+
+#courses-mid img {
+    width: 400px;
+}
+
+.courses-blok {
+    margin: 20px 0 40px;
+}
+
+.courses-blok p {
+    font-size: 30px;
+    padding: 0 0 40px;
+}
+
+.courses-blok a {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.courses-blok a:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+/*      COURSE CONTENT PAGE
+==================================================*/
+
+.course-title {
+    margin: 40px 0;
+    padding: 0 100px;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+.course-title h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.btn-blok {
+    line-height: 100px;
+    margin: 50px auto;
+}
+
+.register-btn {
+    background: #fc5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 70px;
+    border: 3px solid #d40040;
+}
+
+.schedule-btn {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    border: 3px solid #103e77;
+}
+
+.register-btn:hover {
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+.schedule-btn:hover {
+    box-shadow: 5px 5px 5px grey;
+}
+
+.course-top img {
+    margin-right: 100px;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto 40px;
+}
+
+.container h3 {
+    font-size: 30px;
+    padding: 10px 0 20px;
+}
+
+.container p {
+    font-size: 18px;
+}
+
+.container ul {
+    padding-inline-start: 20px;
+}
+
+.container ul li {
+    font-size: 18px;
+}
+
+/*      COURSE SCHEDULE PAGE
+==================================================*/
+
+.schedule-title {
+    margin: 40px 0;
+    padding: 0 100px;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+.schedule-title h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.schedule-title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.schedule-blok {
+    width: 70%;
+    margin: 20px auto 40px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.table thead {
+    background-color: #fc5185;
+}
+
+.table thead tr th {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 12px;
+    border: 1px solid #942647;
+}
+
+.table tbody tr td {
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    background-color: #3f72af;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #364f6b;
+}
+
+.table .status-open {
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.table .status-close {
+    color: orangered;
+    font-weight: bold;
+}
+
+.table .btn {
+    width: 90px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    background-color: crimson;
+    line-height: 35px;
+}
+
+.table .btn:hover {
+    color: crimson;
+    background-color: white;
+}
+
+.schedule-blok h3 {
+    font-size: 30px;
+    color: #364f6b;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+}
+
+.table .btn.close {
+    pointer-events: none;
+    opacity: 0.7;
+}

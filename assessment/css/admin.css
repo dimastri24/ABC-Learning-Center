@@ -1,0 +1,107 @@
+#admin-title {
+    margin: 40px 0;
+    padding: 0 100px;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+#admin-title h1 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.search_blok {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.search-col {
+    margin: 20px auto;
+}
+
+.search_control {
+    margin: 5px;
+}
+
+.search_control input {
+    width: 98%;
+}
+
+.search_control input.gender,
+.search_control input.interested,
+.search_control input.click {
+    width: unset;
+}
+
+.search_control label.cblk {
+    display: block;
+}
+
+.search_control .sel {
+    width: 200px;
+}
+
+.button_blok {
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.button_blok .click {
+    background-color: indianred;
+    border-radius: 10px;
+    margin: 10px 10px 0;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#result-blok {
+    width: 100%;
+    margin: 20px auto 40px;
+}
+
+#result-blok h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+table#list {
+    width: 100%;
+}
+
+#list tbody tr:nth-child(even) {
+    background-color: #fc5185;
+}
+
+#list tbody tr:nth-child(odd) {
+    background-color: #3f72af;
+}
+
+#list tbody tr th {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 12px;
+}
+
+#list tbody tr td {
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+#result-blok input.click {
+    background-color: indianred;
+    border-radius: 10px;
+    margin: 10px 10px 0;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}

@@ -1,0 +1,278 @@
+/*      GLOBAL
+==================================================*/
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.listing-mid {
+    text-align: center;
+    width: 100%;
+}
+
+.listing {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*      HEADER
+==================================================*/
+
+.header-logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+    padding: 30px 0;
+}
+
+.menu {
+    float: right;
+    margin-top: 60px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    border-bottom: 1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 16px 10px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+nav ul.sub {
+    display: none;
+    background-color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 999;
+    margin-top: 5px;
+}
+
+nav ul li ul li {
+    float: none;
+    line-height: 40px;
+}
+
+nav .sub li a {
+    background-color: #dedede;
+    padding: 10px 40px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+/*      Breadcrumbs nav
+==================================================*/
+
+.breadcrumbs {
+    margin-top: 10px;
+    padding: 0 50px;
+}
+
+.breadcrumbs-nav {
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.breadcrumbs-list {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.breadcrumbs-list:not(:last-of-type)::after {
+    content: '/';
+    margin: 0 5px;
+    color: #dedede;
+}
+
+.breadcrumbs-link {
+    text-decoration: none;
+    color: #fc5185;
+}
+
+.breadcrumbs-link:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs-link-active {
+    color: #364f6b;
+    font-weight: bold;
+}
+
+
+/*      HOME PAGE
+==================================================*/
+
+#home img {
+    width: 850px;
+    height: 400px;
+}
+
+.text-banner-block {
+    margin: 10px 0px;
+    padding-left: 40px;
+}
+
+.text-banner-block h1 {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    text-shadow: 4px 4px 4px grey;
+    text-align: center;
+}
+
+.text-banner-block span {
+    color: red;
+}
+
+#home-mid p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+}
+
+#wellcome {
+    margin: 0 100px;
+}
+
+#home-mid {
+    text-align: center;
+    font-family: 'sans-serif';
+    color: #364f6b;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 24px;
+}
+
+#wellcome h2 {
+    font-size: 35px;
+}
+
+/*      FOOTER
+==================================================*/
+
+#footer {
+    background: #dedede;
+    padding: 30px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.footer-section a {
+    line-height: 2;
+    color: black;
+}
+
+.footer-section h4 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.sosmed i {
+    font-size: 22px;
+    color: #fff;
+    background: #fc5185;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 10px 0 0 0;
+}
+
+.sosmed a {
+    padding: 0 5px;
+}
+
+.foot-logo a {
+    font-family: courier;
+    color: #364f6b;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.foot-nav {
+    padding-block-start: 20px;
+}
+
+.foot-nav a {
+    padding: 0 10px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.sosmed i:hover {
+    background: #3f72af;
+}

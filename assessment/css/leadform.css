@@ -1,0 +1,153 @@
+.reg-blok {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    color: #364f6b;
+    font-family: sans-serif;
+}
+
+.reg-blok h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.reg-blok .form {
+    padding: 30px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.form-control label {
+    color: #777;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+/*cancel out*/
+.form-control label.gender-label,
+.form-control label.check,
+.form-control label#terms {
+    display: inline;
+}
+
+.form-control input,
+.form-control textarea {
+    display: block;
+    width: 100%;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/*cancel out*/
+.form-control input.gender,
+.form-control input#checkbox {
+    display: inline;
+}
+
+/*cancel out*/
+.form-control input.gender,
+.form-control input#birthday,
+.form-control input#checkbox {
+    width: unset;
+}
+
+.form-control .gender-label {
+    padding-right: 30px;
+}
+
+.form-control textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form-control select#ocu,
+.form-control select#cou {
+    padding: 10px;
+    font-size: 16px;
+    color: #777;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    width: 300px;
+}
+
+.form-control label.inin {
+    margin: 5px;
+}
+
+.form-control label#terms a {
+    color: blue;
+}
+
+.form-control p#terms a:hover {
+    text-decoration: underline;
+}
+
+.form-control #checkbox {
+    cursor: pointer;
+}
+
+
+.form button {
+    cursor: pointer;
+    background-color: #fc5185;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px;
+    margin: 20px auto 0;
+    width: 100%;
+}
+
+.form-control .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* div#respons {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #dedede;
+    padding: 20px 0;
+    border-radius: 10px;
+} */
+
+/* .error {       
+    color: red;
+    font-size: 12px !important;
+    position: relative;
+    top: -10px;
+    left: 40px;
+} */
+
+/* #successMessage {
+    color: green;
+    font-size: 15px !important;
+    display:none;
+    position: relative;
+    top: -20px;
+    left: 40px; 
+  }
+   
+  #errorMessage {
+    color: red;
+    font-size: 15px !important;
+    display:none;
+    position: relative;
+    top: -20px;
+    left: 40px; 
+  } */

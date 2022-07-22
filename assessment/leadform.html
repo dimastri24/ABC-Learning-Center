@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/leadform.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Registration | ABC Learning Center</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="wrapper">
+                <div class="header-logo"><a href="#">ABC Learning Center</a></div>
+                <div class="menu">
+                    <ul class="main">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a>
+                            <ul class="sub">
+                                <li><a href="java.html">Java</a></li>
+                                <li><a href="html.html">Html</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="leadform.html" class="tbl-biru">REGISTER</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <div class="reg-blok">
+                <h1>Registration Form</h1>
+                <form id="form" class="form" name="regDetails">
+                    <div class="form-control">
+                        <label for="first name">First Name</label>
+                        <input type="text" id="firstname" placeholder="firstname" name="fname">
+                    </div>
+                    <div class="form-control">
+                        <label for="last name">Last Name</label>
+                        <input type="text" id="lastname" placeholder="lastname" name="lname">
+                    </div>
+                    <div class="form-control gen">
+                        <label for="gender">Gender</label>
+                        <input type="radio" id="man" class="gender" name="gender" value="man">
+                        <label for="gender" class="gender-label">Man</label>
+                        <input type="radio" id="woman" class="gender" name="gender" value="woman">
+                        <label for="gender" class="gender-label">Woman</label>
+                    </div>
+                    <div class="form-control">
+                        <label for="birthday">Birthday</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                    <div class="form-control">
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country" placeholder="e.g. United State or Singapore">
+                    </div>
+                    <div class="form-control">
+                        <label for="city">City / State</label>
+                        <input type="text" id="city" name="city" placeholder="e.g. Jakarta or Kansas">
+                    </div>
+                    <div class="form-control">
+                        <label for="address">Address</label>
+                        <textarea type="text" id="address" name="address" placeholder="enter your address"></textarea>
+                    </div>
+                    <div class="form-control">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" name="phone"
+                            placeholder="e.g. 5305551212 | (530) 555-1212 | 530-555-1212">
+                    </div>
+                    <div class="form-control">
+                        <label for="occupation">Occupation</label>
+                        <select name="occupation" id="ocu">
+                            <option selected="" disabled="">Select Occupation</option>
+                            <option value="Software engineer">Sotware Engineer</option>
+                            <option value="Web developer">Web Developer</option>
+                            <option value="Database administrator">Database Administrator</option>
+                            <option value="Business analyst">Business analyst</option>
+                            <option value="collage student">Collage Student</option>
+                            <option value="highschooler">Highschooler</option>
+                            <option value="other">other</option>
+                        </select>
+                    </div>
+                    <div class="form-control inter">
+                        <label for="interested">Course that you interested in</label>
+                        <select name="inter" id="cou">
+                            <option selected="" disabled="">Select Course</option>
+                            <option value="Information System">Information System</option>
+                            <option value="Software Development">Software Development</option>
+                            <option value="Web Development">Web Development</option>
+                        </select>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">EmailAddress</label>
+                        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-control">
+                        <label for="password1">Password</label>
+                        <input type="password" id="password1" name="pw1" placeholder="password must be 6-25 character">
+                    </div>
+                    <div class="form-control">
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2" name="pw2" placeholder="confirm your password">
+                    </div>
+                    <div class="form-control agreement">
+                        <input type="checkbox" id="checkbox" name="term">
+                        <label for="agree" id="terms">Agreed to terms and conditions <a href="privacy.html">see terms</a></label>        
+                    </div>
+                    <div class="form-control">
+                        <button type="submit" id="reg-btn" class="btn">register</button>
+                    </div>
+                    <div id="respons"></div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div class="wrapper">
+                <div class="footer">
+                    <div class="footer-section">
+                        <div class="foot-nav">
+                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="sitemap.html">Site Map</a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Get Connect With</h4>
+                        <div class="sosmed">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <div class="foot-logo">
+                            <a href="index.html">ABC Learning Center</a>
+                        </div>
+                        <div class="foot-mail">
+                            <p><a href="mailto:#">support@abclearning.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+    <script src="script/leadform.js"></script>
+</body>
+
+</html>

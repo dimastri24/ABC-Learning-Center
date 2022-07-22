@@ -1,0 +1,303 @@
+/*      ABOUT US PAGE
+==================================================*/
+
+#aboutUs {
+    margin-bottom: 0;
+}
+
+#aboutUs-text-blok {
+    margin: 100px 0px;
+    padding-left: 100px;
+}
+
+#aboutUs-text-blok h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #364f6b;
+    padding-bottom: 20px;
+}
+
+#aboutUs-text-blok p {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #364f6b;
+    width: 100%;
+}
+
+#aboutUs img {
+    width: 700px;
+    height: 500px;
+}
+
+#motivation {
+    background-color: #dedede;
+    padding: 20px 0px;
+}
+
+#motiv-descrip {
+    margin: 0 100px;
+}
+
+#motiv-descrip p {
+    font-size: 20px;
+    font-family: 'comic sans ms';
+    text-align: center;
+    width: 100%;
+}
+
+#story-text-blok {
+    margin: 140px 0;
+    padding-right: 100px;
+}
+
+#story-text-blok h3 {
+    font-size: 25px;
+    font-family: 'comic sans ms';
+    color: #fc5185;
+}
+
+#story-text-blok p {
+    font-size: 20px;
+    font-family: 'comic sans ms';
+    color: #fc5185;
+}
+
+#teams-descrip {
+    margin-bottom: 30px;
+}
+
+#teams-descrip h3 {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #364f6b;
+    padding-bottom: 20px;
+}
+
+#teams-descrip p {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #364f6b;
+}
+
+.teams-card {
+    width: 20%;
+    margin: 0 auto;
+    padding: 0 30px 20px;
+    border: 2px solid black;
+    border-radius: 20%;
+}
+
+.teams-card img {
+    width: 80%;
+    border-radius: 50%;
+    padding: 10px 0;
+}
+
+.teams-card p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #fc5185;
+    padding-bottom: 10px;
+}
+
+/*      CONTACT US PAGE
+==================================================*/
+
+#con-use {
+    margin: 40px 0;
+    padding: 0 100px;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+#con-use h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.con-col {
+    margin: 0 auto;
+}
+
+.con-col p {
+    font-size: 20px;
+}
+
+address {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+address a {
+    color: #364f6b;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+
+.con-sosmed a {
+    padding: 0 5px;
+}
+
+.con-sosmed i {
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #3f72af;
+    border-radius: 50%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.con-sosmed i:hover {
+    background-color: #fc5185
+}
+
+/*      CONTACT FORM
+==================================================*/
+
+:root {
+    --succes-color: #2ecc71;
+    ;
+    --error-color: #e74c3c;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    color: #777;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input,
+.form-control textarea {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 500px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+.form-control.success input,
+.form-control.success textarea {
+    border-color: var(--succes-color);
+}
+
+.form-control.error input,
+.form-control.error textarea {
+    border-color: var(--error-color);
+}
+
+.form-control small {
+    color: var(--error-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form-control textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form button {
+    cursor: pointer;
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form button:hover {
+    background-color: #fc5185;
+}
+
+/*      PP SM USED
+==================================================*/
+
+.ppsm-use {
+    margin: 40px 0;
+    padding: 0 100px;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+.ppsm-use h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+/*      PRIVACY POLICY PAGE
+==================================================*/
+
+#pp-descrip h2 {
+    padding: 30px 0 10px;
+    font-size: 30px;
+}
+
+#pp-list {
+    padding: 0 30px 50px;
+    font-size: 18px;
+}
+
+#pp-descrip p {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+
+/*      SITE MAP PAGE
+==================================================*/
+
+.sm-col {
+    margin: 20px auto 0;
+}
+
+.sm-col p {
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sm-col ul li {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.sm-col ul li a {
+    color: #fc5185;
+}
+
+.sm-col ul li:hover {
+    text-decoration: underline;
+}
