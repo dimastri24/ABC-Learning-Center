@@ -1,8 +1,20 @@
 # ABC-Learning-Center
-Brief Description <br>
+BRIEF DESCRIPTION<br>
 Simple website from HTML, CSS, JavaScript only, for ABC Learning Center
 
-<hr></hr>
+<hr/>
+
+SYSTEM REQUIREMENTS<br/>
+Apache Server (suitable version), Any text editor or IDE (VScode recommend)
+
+<hr/>
+
+HOW TO RUN<br/>
+-Have a Apache Server install and able to run
+-Put the folder "assessment" inside the htdocs file of the Apache
+-Run the Apache Server, access the link with this project directory
+
+<hr/>
 
 Screenshot of the page results
 
