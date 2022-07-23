@@ -10,9 +10,9 @@ Apache Server (suitable version), Any text editor or IDE (VScode recommend)
 <hr/>
 
 HOW TO RUN<br/>
--Have a Apache Server install and able to run
--Put the folder "assessment" inside the htdocs file of the Apache
--Run the Apache Server, access the link with this project directory
+-Have a Apache Server install and able to run <br/>
+-Put the folder "assessment" inside the htdocs file of the Apache <br/>
+-Run the Apache Server, access the link with this project directory <br/>
 
 <hr/>
 
